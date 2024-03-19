@@ -1,0 +1,42 @@
+
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav ul{
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: black;
+  color: white;
+}
+nav ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.features{
+  padding: 2%;
+}
+.features ul li{
+  display: inline;
+  margin-top: 1px;
+}
+
+
+nav a.is-active{
+  font-weight: bold;
+  pointer-events: none;
+  background-color: rgb(13, 18, 34);
+  color: rgb(255, 255, 255);
+}
+ul{
+  list-style-type: none;
+}
+
+h1, h2, p{
+  color: white;
+}
